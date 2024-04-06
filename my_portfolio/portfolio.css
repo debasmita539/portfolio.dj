@@ -1,0 +1,64 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height:1;
+    color: #333;
+}
+
+/* Header and navigation */
+header {
+    background-color: #080908;
+    color: white;
+    padding: 1px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    padding: 2em;
+}
+
+/* Sections */
+section {
+    margin-bottom: 2em;
+}
+
+section h1 {
+    color: #090909;
+    margin-bottom: 1em;
+}
+
+/* Project cards */
+.project-card {
+    border: 1px solid #000000;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1 rem;
+}
